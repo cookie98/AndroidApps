@@ -76,9 +76,9 @@ The test app was run on a Nexus 7, running Android 4.2.2.
 
 The following are the results of the interactive tests:
 
-* HTML5 Canvas Test: Around 2000 ms
-* Android Canvas JS Test: Around 3600 ms
-* Android Canvas Native Test: Adround 2800 ms
+* One Way Test: Around 400 ms
+* Two Way Test: Around 3200 ms
+* Prompt Test: Around 5500 ms
 
 The following are the results of the interactive tests:
 
@@ -86,6 +86,19 @@ The following are the results of the interactive tests:
 * Android Canvas JS Test: Around 3600 ms
 * Android Canvas Native Test: Adround 2800 ms
 
+Nexus One, running Android 2.3.6.
+
+Call tests:
+
+* One Way Test: Around 360 ms
+* Two Way Test: Around 4100 ms
+* Prompt Test: Adround 6000 ms
+
+Interactive tests:
+
+* HTML5 Canvas Test: Around 5800 ms
+* Android Canvas JS Test: Around 2200 ms
+* Android Canvas Native Test: Adround 1700 ms
 
 Conclusion
 
