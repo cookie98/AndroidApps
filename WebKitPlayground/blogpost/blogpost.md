@@ -42,7 +42,7 @@ Now, the question is, how fast is JavaScript running in a WebView? And what is t
 
 ## WebView Performance Test App
 
-To study the performance of running JavaScript in a WebView, we will use a hands on example. The Android app [WekKit Playground](https://github.com/divineprog/AndroidApps/tree/master/WebKitPlayground), demonstrates the programming techniques involved, and also provides performance tests. The full source code of the app is found on [GitHub](https://github.com/divineprog/AndroidApps/tree/master/WebKitPlayground), and there is also an [APK-file](https://github.com/divineprog/AndroidApps/blob/master/WebKitPlayground/blogpost/WebKitPlayground.apk) you can download and install.
+To study the performance of running JavaScript in a WebView, we will use a hands on example. The Android app [WekKit Playground](https://github.com/divineprog/AndroidApps/tree/master/WebKitPlayground), demonstrates the programming techniques involved, and also provides performance tests. The full source code of the app is found on [GitHub](https://github.com/divineprog/AndroidApps/tree/master/WebKitPlayground), and there is also an [APK-file](https://github.com/divineprog/AndroidApps/blob/master/WebKitPlayground/blogpost/WebKitPlayground.apk) (debug signed) you can download and install.
 
 TODO: Insert screenshots.
 
