@@ -1,4 +1,4 @@
 AndroidApps
 ===========
 
-Android example code
+Android test apps and example apps.

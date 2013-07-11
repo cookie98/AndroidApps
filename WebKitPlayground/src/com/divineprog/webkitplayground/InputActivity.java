@@ -100,7 +100,10 @@ public class InputActivity extends Activity
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event)
     {
-        if (mInputListeners.isEmpty()) { return false; }
+        if (mInputListeners.isEmpty())
+        {
+            return super.onKeyDown(keyCode, event);
+        }
 
         for (Input.Listener listener : mInputListeners)
         {
@@ -113,7 +116,10 @@ public class InputActivity extends Activity
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event)
     {
-        if (mInputListeners.isEmpty()) { return false; }
+        if (mInputListeners.isEmpty())
+        {
+            return super.onKeyUp(keyCode, event);
+        }
 
         for (Input.Listener listener : mInputListeners)
         {

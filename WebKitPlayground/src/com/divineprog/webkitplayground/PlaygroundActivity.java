@@ -1,6 +1,8 @@
 package com.divineprog.webkitplayground;
 
 import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Menu;
 
 public class PlaygroundActivity extends InputActivity
@@ -39,7 +41,15 @@ public class PlaygroundActivity extends InputActivity
 		// Show WebView.
 		setContentView(mWebView);
 	}
-
+/*
+	void logScreenSize()
+	{
+	    DisplayMetrics dm = new DisplayMetrics();
+	    getWindowManager().getDefaultDisplay().getMetrics(dm);
+        Log.i("@@@","Screen width : " + (dm.widthPixels/dm.xdpi*25.6) + " mm");
+        Log.i("@@@","Screen height : " + (dm.heightPixels/dm.ydpi*25.6) + " mm");
+	}
+*/
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
