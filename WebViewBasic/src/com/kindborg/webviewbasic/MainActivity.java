@@ -35,8 +35,8 @@ public class MainActivity extends Activity
     @JavascriptInterface
     public void vibrate(long milliseconds)
     {
-	    	((Vibrator)
-	    		getSystemService(Context.VIBRATOR_SERVICE))
-	    			.vibrate(milliseconds);
+	    ((Vibrator)
+	    	getSystemService(Context.VIBRATOR_SERVICE))
+	    		.vibrate(milliseconds);
     }
 }
