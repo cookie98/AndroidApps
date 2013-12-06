@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity
 {
 	WebView mWebView;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
@@ -25,7 +25,7 @@ public class MainActivity extends Activity
 		mWebView.loadUrl("file:///android_asset/index.html");
 		setContentView(mWebView);
 	}
-	
+
     @JavascriptInterface
     public void showToast(String message)
     {
@@ -35,8 +35,8 @@ public class MainActivity extends Activity
     @JavascriptInterface
     public void vibrate(long milliseconds)
     {
-	    	((Vibrator) 
+	    	((Vibrator)
 	    		getSystemService(Context.VIBRATOR_SERVICE))
-	    			.vibrate(500);
+	    			.vibrate(milliseconds);
     }
 }
